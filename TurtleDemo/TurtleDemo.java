@@ -9,5 +9,7 @@ public class TurtleDemo
         crush.setPenColor(Color.RED);
         crush.penDown();
         crush.forward(50);
+        crush.turnLeft();
+        crush.forward(50);
     }
 }
