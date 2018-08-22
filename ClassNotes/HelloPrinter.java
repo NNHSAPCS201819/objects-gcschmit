@@ -36,6 +36,49 @@ public class HelloPrinter
         System.out.println( "Hello, World!" ); // comment at the end of a line
         
         // this is a single-line comment (like # python)
+        
+        /*
+         * Identifiers are any combination of:
+         *      letters
+         *      digits (but not as the first character)
+         *      underscores (_)
+         *      dollar signs ($)
+         *  
+         *  These are various identifiers:
+         */
+        int y, x2, x_y, x$;
+        
+        // This is not a valid identifier
+        //int 2y;
+        
+        /*
+         * Identifiers are case sensistive (case matters).
+         * 
+         * These are three different identifiers:
+         */
+        String box, BOX, bOx;
+        
+        /*
+         * By convention, constants are all uppercase.
+         *      Use an underscore to separate words.
+         */
+        int SPEED_OF_LIGHT = 300000000;
+        
+        /*
+         * By convention, most other identifiers start with a lowercase
+         *      letter. Subsequent words start iwth an uppercase letter.
+         *      (CamalCase)
+         */
+        String firstName;
+        
+        /*
+         * This is a compile-time error. (This code doesn't even compile.)
+         * 
+         *  These are often also called syntax errors.
+         */
+        //System.ou.println( "Hello, World!" );
+        
+        System.out.println( 1 / 0 );
     }
 }
 
