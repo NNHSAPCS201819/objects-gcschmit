@@ -33,7 +33,63 @@ public class HelloPrinter
          * When invoking a method, arguments are passed in parentheses
          *      (e.g., "Hello, World!").
          */
-        System.out.println( "Hello, World!" );
+        System.out.println( "Hello, World!" ); // comment at end of line
+        
+        // this is a single-line comment (like # python)
+        
+        /*
+         * Identifiers are any combination of:
+         *      letters
+         *      digits (but not as the first character)
+         *      underscores (_)
+         *      dollar signs ($)
+         *  
+         *  These are various identifiers.
+         */
+        int y, x2, x_y, x$;
+        
+        // This is not a valid identifier
+        //int 2y;
+        
+        /*
+         * Identifiers are case sensitive (case matters).
+         * 
+         * These are three different identifiers:
+         */
+        String box, BOX, bOx;
+        
+        /*
+         * By convention, constants are all uppercase.
+         *      Use an underscore to separate words.
+         */
+        int SPEED_OF_LIGHT = 300000000;
+        
+        /*
+         * By convention, other identifiers start with a lowercase letter.
+         *      Subsequent words start with an uppercase letter (CamalCase)
+         */
+        String firstName;
+        
+        /*
+         * This is a compile-time error. (This code doesn't even compile.)
+         * 
+         *      These are also called syntax errors.
+         */
+        //String.ou.println( "Hello, World!" );
+        
+        /*
+         * This is a run-time error. (This code compiles and runs, but
+         *      generates an exception. The program crashes in most cases.)
+         */
+        //System.out.println( 1/0 );
+        
+        /*
+         * This is also a run-time error. (This code compiles and runs, but
+         *      doesn't product the expected output.)
+         *      
+         *  More specifically, this is a logical error.
+         */
+        System.out.println( "Hello, Word!" );
     }
 }
 
