@@ -1,6 +1,6 @@
 
 /**
- * Every Java program contains one or more classes (e.g., HelloPrinter)
+ * Every Java program contains  one or more classes (e.g., HelloPrinter)
  * 
  * In general, every source file (e.g., HelloPrinter.java) contains one
  *      class (e.g., HelloPrinter).
