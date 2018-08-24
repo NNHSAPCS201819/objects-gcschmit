@@ -78,7 +78,19 @@ public class HelloPrinter
          */
         //System.ou.println( "Hello, World!" );
         
-        System.out.println( 1 / 0 );
+        /*
+         * This is a run-time error. (This code compiles and runs, but
+         *      generates an exception. In most cases, the program crashes.)
+         */
+        //System.out.println( 1 / 0 );
+        
+        /*
+         * This is also a run-time error. (This code compiles and runs,
+         *      but it doesn't produce the expected output.)
+         *      
+         *  More specifically, this is a logical error.
+         */
+        System.out.println( "Hello, Word!" );
     }
 }
 
